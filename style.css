@@ -1,0 +1,66 @@
+html{
+    background-color: black;
+    color: white;
+}
+    .container {
+        width: 375px;
+        height: 413px;
+        background-color: hsl(0, 0%, 12%);
+        margin: 40px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: "Inter", sans-serif;
+        border-radius: 10px;
+        padding-top: 185px;
+    }
+
+.profile-image 
+{
+        border: 50%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: 0 auto;
+        margin-top: -187px;
+    
+}
+
+img{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+.profile-name{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: hsl(0, 0%, 100%);
+
+}
+.location{
+    color: hsl(75, 94%, 57%);
+}
+div.container > a{
+
+        text-decoration: none;
+        color: white;
+        background-color: hsl(0, 0%, 20%);
+        margin-bottom: 10px;
+        /* padding-left: 52px; */
+        padding-top: 10px;
+        width: 44%;
+        padding-left: 80px;
+        padding-bottom: 10px;
+        padding-right: 52px;
+        border-radius: 5px;
+    }
+    div.container > a:hover{
+    background-color: hsl(75, 94%, 57%);
+}
+.about{
+    color: hsl(0, 1%, 67%);
+    font-size: 14px;
+}
